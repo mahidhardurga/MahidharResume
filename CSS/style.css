@@ -1,5 +1,5 @@
 
-@media (max-width:799px){
+@media screen and (max-width:799px){
     body{
         padding-left: 50px;
         padding-right: 50px;
@@ -41,7 +41,9 @@
 
 
 
-@media (min-width:800px){
+
+
+@media screen and (min-width:800px){
     body{
         padding-left: 100px;
         padding-right: 100px;
