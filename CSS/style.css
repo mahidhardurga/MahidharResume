@@ -1,65 +1,114 @@
-body{
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 30px;
-}
 
-h1,h3,h4,h5,h6{
-    margin: 0;
-}
+@media (max-width:799px){
+    body{
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 30px;
+    }
+    
+    h1,h3,h4,h5,h6{
+        margin: 0;
+    }
 
+    .right-content-header p, .right-content-header img{
+        display: inline;
+        padding-bottom: 10px;
+    }
 
+    .right img{
+        width: 15px;
+        height: 15px;
+        padding: 0px;
+    }
 
-#header .left{
-    display: inline;
-    float: left;
-    width: 50%;
-}
+    #skills p, #interests p{
+        display: inline-block;
+        padding: 10px;
+        margin: 2px;
+        border-radius: 10%;
+        color: white;
+        background-color: grey;
+    }
+    
+    .content{
+        margin-bottom: 20px;
+    }
 
-#header .right{
-    display: inline;
-    float: right;
-}
-
-.right-content-header p, .right-content-header img{
-    display: inline;
-    padding-bottom: 10px;
-}
-
-.right img{
-    width: 15px;
-    height: 15px;
-    padding: 0px;
-}
-
-
-hr{
-    clear: both;
-}
-
-#content-left, #content-right{
-    display: inline;
-    width: 45%;
-}
-
-#content-left{
-    float: left;
-}
-
-#content-right{
-    float: right;
 }
 
 
-#skills p, #interests p{
-    display: inline-block;
-    padding: 10px;
-    margin: 2px;
-    border-radius: 10%;
-    color: white;
-    background-color: grey;
+
+
+
+
+@media (min-width:800px){
+    body{
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 30px;
+    }
+    
+    h1,h3,h4,h5,h6{
+        margin: 0;
+    }
+    
+    
+    
+    #header .left{
+        display: inline;
+        float: left;
+        width: 50%;
+    }
+    
+    #header .right{
+        display: inline;
+        float: right;
+        text-align: right;
+    }
+    
+    .right-content-header p, .right-content-header img{
+        display: inline;
+        padding-bottom: 10px;
+    }
+    
+    .right img{
+        width: 15px;
+        height: 15px;
+        padding: 0px;
+    }
+    
+    
+    hr{
+        clear: both;
+    }
+    
+    #content-left, #content-right{
+        display: inline;
+        width: 45%;
+    }
+    
+    #content-left{
+        float: left;
+    }
+    
+    #content-right{
+        float: right;
+    }
+    
+    
+    #skills p, #interests p{
+        display: inline-block;
+        padding: 10px;
+        margin: 2px;
+        border-radius: 10%;
+        color: white;
+        background-color: grey;
+    }
+    
+    .content{
+        margin-bottom: 20px;
+    }
 }
 
-.content{
-    margin-bottom: 20px;
-}
+
+
